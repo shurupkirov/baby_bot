@@ -17,6 +17,7 @@ async def get_text_messages(msg: types.Message):
     else:
         await msg.answer('Не понимаю, что это значит.')
 """
+
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 from dotenv import dotenv_values
